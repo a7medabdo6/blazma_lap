@@ -11,7 +11,7 @@ const db = {};
 
 let sequelize;
 sequelize = new Sequelize({ dialect: "sqlite", storage: "blazma.sqlite" });
-
+//test
 fs.readdirSync(__dirname)
   .filter((file) => {
     return (
