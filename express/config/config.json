@@ -1,27 +1,27 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "alhaia_lab",
-    "host": "127.0.0.1",
+    "username": "doadmin",
+    "password": "AVNS_f4V5A6KDgDXfr5v5Ppf",
+    "database": "defaultdb",
+    "host": "db-mysql-fra1-65785-do-user-13727600-0.b.db.ondigitalocean.com",
     "dialect": "mysql",
     "jwtSecret": "jwtSecret",
-    "domain": "localhost:5001"
+    "domain": "http://142.93.173.111"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "doadmin",
+    "password": "AVNS_f4V5A6KDgDXfr5v5Ppf",
+    "database": "defaultdb",
+    "host": "db-mysql-fra1-65785-do-user-13727600-0.b.db.ondigitalocean.com",
     "dialect": "mysql"
   },
   "production": {
-    "username": "alhaideriaedu_blazma",
-    "password": "jnUKZ.CsTK9t",
-    "database": "alhaideriaedu_blazma",
-    "host": "127.0.0.1",
+    "username": "doadmin",
+    "password": "AVNS_f4V5A6KDgDXfr5v5Ppf",
+    "database": "defaultdb",
+    "host": "db-mysql-fra1-65785-do-user-13727600-0.b.db.ondigitalocean.com",
     "dialect": "mysql",
     "jwtSecret": "jwtSecret",
-    "domain": "https://api.blazma.al-haideriaedu.com"
+    "domain": "http://142.93.173.111"
   }
 }
