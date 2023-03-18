@@ -53,8 +53,8 @@ const RegisterUser = async (req, res) => {
         name,
         email,
         role,
-        createdBy: req.user?.id,
-        nameofParentUser: req.user.name,
+        createdBy:1,// req.user?.id,
+        nameofParentUser:"none",// req.user.name,
 
         password,
       });
