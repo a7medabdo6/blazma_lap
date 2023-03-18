@@ -10,7 +10,7 @@ const { RegisterUserVal } = require("../../validators/RegisterUserVal");
 //@route  POST api/users
 //@desc   Register User
 //@access Public
-router.post("/", RegisterUserVal(), auth, RegisterUser);
+router.post("/", RegisterUser);
 router.post("/edit-password", auth, finduserandUpdate);
 
 module.exports = router;
